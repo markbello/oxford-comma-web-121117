@@ -9,7 +9,7 @@ def oxford_comma(array)
       when 3
         return "#{array[0]}, #{array[1]}, and #{array[2]}"
       else
-        phrase
+        phrase = ""
         array.each_with_index{|item, i|
         if i != -1
           phrase += "#{item}, "
