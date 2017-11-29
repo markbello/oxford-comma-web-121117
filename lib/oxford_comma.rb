@@ -11,7 +11,7 @@ def oxford_comma(array)
       else
         phrase = ""
         array.each_with_index{|item, i|
-        if i != array.count -1
+        if i < array.count - 1
           phrase += "#{item}, "
         else
           phrase += "and #{item}"
