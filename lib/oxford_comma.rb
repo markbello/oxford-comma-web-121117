@@ -17,5 +17,6 @@ def oxford_comma(array)
           phrase += "and #{item}"
         end
         }
+        return phrase
     end
 end
